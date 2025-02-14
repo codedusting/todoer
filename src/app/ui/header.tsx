@@ -12,6 +12,7 @@ export default function Header() {
         <Link
           href={HOMEPAGE}
           className="flex items-center justify-start gap-1 text-xl font-semibold"
+          prefetch
         >
           <ListTodoIcon size={24} />
           <span>todoer</span>

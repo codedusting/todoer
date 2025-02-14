@@ -35,6 +35,7 @@ export default function MobileNavigation() {
       <ul className="flex items-center justify-between">
         <li className="flex-1">
           <Link
+            prefetch
             href={HOMEPAGE}
             className={cn(
               "flex flex-col items-center justify-center gap-1 border-t-2 border-solid border-t-transparent p-0.5 pt-1 opacity-60 hover:opacity-100",
@@ -49,6 +50,7 @@ export default function MobileNavigation() {
         </li>
         <li className="flex-1">
           <Link
+            prefetch
             href={PRICING}
             className={cn(
               "flex flex-col items-center justify-center gap-1 border-t-2 border-solid border-t-transparent p-0.5 pt-1 opacity-60 hover:opacity-100",
@@ -63,6 +65,7 @@ export default function MobileNavigation() {
         </li>
         <li className="flex-1">
           <Link
+            prefetch
             href={CONTACT}
             className={cn(
               "flex flex-col items-center justify-center gap-1 border-t-2 border-solid border-t-transparent p-0.5 pt-1 opacity-60 hover:opacity-100",
@@ -77,6 +80,7 @@ export default function MobileNavigation() {
         </li>
         <li className="flex-1">
           <Link
+            prefetch
             href={PRIVACY_POLICY}
             className={cn(
               "flex flex-col items-center justify-center gap-1 border-t-2 border-solid border-t-transparent p-0.5 pt-1 opacity-60 hover:opacity-100",
@@ -91,6 +95,7 @@ export default function MobileNavigation() {
         </li>
         <li className="flex-1">
           <Link
+            prefetch
             href={TERMS_OF_USE}
             className={cn(
               "flex flex-col items-center justify-center gap-1 border-t-2 border-solid border-t-transparent p-0.5 pt-1 opacity-60 hover:opacity-100",
@@ -107,6 +112,7 @@ export default function MobileNavigation() {
           <>
             <li className="flex-1">
               <Link
+                prefetch
                 className={cn(
                   "flex flex-col items-center justify-center gap-1 border-t-2 border-solid border-t-transparent p-0.5 pt-1 opacity-60 hover:opacity-100",
                   {
@@ -121,6 +127,7 @@ export default function MobileNavigation() {
             </li>
             <li className="flex-1">
               <Link
+                prefetch
                 href={SIGNUP}
                 className={cn(
                   "flex flex-col items-center justify-center gap-1 border-t-2 border-solid border-t-transparent p-0.5 pt-1 opacity-60 hover:opacity-100",
@@ -139,6 +146,7 @@ export default function MobileNavigation() {
           <>
             <li className="flex-1">
               <Link
+                prefetch
                 href={ACCOUNT}
                 className={cn(
                   "flex flex-col items-center justify-center gap-1 border-t-2 border-solid border-t-transparent p-0.5 pt-1 opacity-60 hover:opacity-100",
@@ -153,6 +161,7 @@ export default function MobileNavigation() {
             </li>
             <li className="flex-1">
               <Link
+                prefetch
                 className={cn(
                   "flex flex-col items-center justify-center gap-1 border-t-2 border-solid border-t-transparent p-0.5 pt-1 opacity-60 hover:opacity-100",
                   {
