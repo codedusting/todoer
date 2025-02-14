@@ -1,7 +1,6 @@
 /** @type {import("tailwindcss").Config} */
-
-import tailwindAnimate from "tailwindcss-animate";
 import tailwindForms from "@tailwindcss/forms";
+import tailwindAnimate from "tailwindcss-animate";
 
 const config = {
   content: [

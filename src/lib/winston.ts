@@ -1,7 +1,7 @@
-import * as winston from "winston";
-import * as fs from "fs";
 import { format } from "date-fns";
 import { toZonedTime } from "date-fns-tz";
+import * as fs from "fs";
+import * as winston from "winston";
 
 const timeZone = "Asia/Kolkata"; // IST timezone
 
