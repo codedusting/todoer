@@ -1,8 +1,10 @@
 import type { Metadata, Viewport } from "next";
 import { Lexend } from "next/font/google";
-import { cn } from "@/lib/utils";
-import Header from "@/app/ui/header";
+
 import Footer from "@/app/ui/footer";
+import Header from "@/app/ui/header";
+import { cn } from "@/lib/utils";
+
 import "./globals.css";
 
 const lexend = Lexend({ subsets: ["latin"], variable: "--font-lexend", weight: ["400", "700"] });

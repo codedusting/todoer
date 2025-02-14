@@ -1,10 +1,12 @@
 "use client";
 
-import { CONTACT, HOMEPAGE, PRICING, PRIVACY_POLICY, TERMS_OF_USE } from "@/constants/routes";
-import { cn } from "@/lib/utils";
-import { HomeIcon, WalletIcon, ContactIcon, GlobeLockIcon, HandshakeIcon } from "lucide-react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+
+import { ContactIcon, GlobeLockIcon, HandshakeIcon, HomeIcon, WalletIcon } from "lucide-react";
+
+import { CONTACT, HOMEPAGE, PRICING, PRIVACY_POLICY, TERMS_OF_USE } from "@/constants/routes";
+import { cn } from "@/lib/utils";
 
 export default function DesktopNavigation() {
   const pathname = usePathname();

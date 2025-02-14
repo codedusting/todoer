@@ -1,5 +1,20 @@
 "use client";
 
+import Link from "next/link";
+import { usePathname } from "next/navigation";
+
+import {
+  ContactIcon,
+  GlobeLockIcon,
+  HandshakeIcon,
+  HomeIcon,
+  LogInIcon,
+  LogOutIcon,
+  UserIcon,
+  UserPlusIcon,
+  WalletIcon,
+} from "lucide-react";
+
 import {
   ACCOUNT,
   CONTACT,
@@ -12,19 +27,6 @@ import {
   TERMS_OF_USE,
 } from "@/constants/routes";
 import { cn } from "@/lib/utils";
-import {
-  ContactIcon,
-  GlobeLockIcon,
-  HandshakeIcon,
-  HomeIcon,
-  LogInIcon,
-  LogOutIcon,
-  UserIcon,
-  UserPlusIcon,
-  WalletIcon,
-} from "lucide-react";
-import Link from "next/link";
-import { usePathname } from "next/navigation";
 
 export default function MobileNavigation() {
   const pathname = usePathname();

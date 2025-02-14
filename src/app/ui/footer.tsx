@@ -1,4 +1,5 @@
 import { getYear } from "date-fns";
+
 import MobileNavigation from "./mobile-navigation";
 
 export default function Footer() {

@@ -1,7 +1,9 @@
 "use server";
 
-import { HOMEPAGE } from "@/constants/routes";
 import { redirect } from "next/navigation";
+
+import { HOMEPAGE } from "@/constants/routes";
+
 import { deleteSession } from "./sessions";
 
 export const logoutAction = async () => {

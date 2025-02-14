@@ -1,8 +1,11 @@
-import { LOGIN, SIGNUP, ACCOUNT } from "@/constants/routes";
-import { LogInIcon, UserPlusIcon, UserIcon, LogOutIcon } from "lucide-react";
-import { Button } from "@/components/ui/button";
 import Link from "next/link";
+
+import { LogInIcon, LogOutIcon, UserIcon, UserPlusIcon } from "lucide-react";
+
+import { Button } from "@/components/ui/button";
 import { Skeleton } from "@/components/ui/skeleton";
+import { ACCOUNT, LOGIN, SIGNUP } from "@/constants/routes";
+
 import { logoutAction } from "../actions";
 
 export default async function AuthLinks() {

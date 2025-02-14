@@ -1,9 +1,12 @@
-import { HOMEPAGE } from "@/constants/routes";
-import { ListTodoIcon } from "lucide-react";
 import Link from "next/link";
-import DesktopNavigation from "./navigation";
 import { Suspense } from "react";
+
+import { ListTodoIcon } from "lucide-react";
+
+import { HOMEPAGE } from "@/constants/routes";
+
 import AuthLinks, { AuthLinksSkeleton } from "./auth-links";
+import DesktopNavigation from "./navigation";
 
 export default function Header() {
   return (
