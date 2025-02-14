@@ -1,8 +1,8 @@
 import type { Metadata, Viewport } from "next";
 import { Lexend } from "next/font/google";
 import { cn } from "@/lib/utils";
-import Header from "./ui/header";
-import Footer from "./ui/footer";
+import Header from "@/app/ui/header";
+import Footer from "@/app/ui/footer";
 import "./globals.css";
 
 const lexend = Lexend({ subsets: ["latin"], variable: "--font-lexend", weight: ["400", "700"] });
@@ -28,11 +28,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className="dark">
       <body
         className={cn(
           lexend.variable,
-          "flex h-dvh flex-col bg-background font-sans text-foreground antialiased",
+          "bg-background text-foreground flex h-dvh flex-col font-sans antialiased",
         )}
       >
         <Header />

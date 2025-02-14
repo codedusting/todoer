@@ -13,6 +13,7 @@ export default function DesktopNavigation() {
     <ul className="flex gap-6 pr-6 text-sm">
       <li>
         <Link
+          prefetch
           href={HOMEPAGE}
           className={cn(
             "flex items-center justify-between gap-1 p-0.5 opacity-60 hover:opacity-100",
@@ -27,6 +28,7 @@ export default function DesktopNavigation() {
       </li>
       <li>
         <Link
+          prefetch
           href={PRICING}
           className={cn(
             "flex items-center justify-between gap-1 p-0.5 opacity-60 hover:opacity-100",
@@ -41,6 +43,7 @@ export default function DesktopNavigation() {
       </li>
       <li>
         <Link
+          prefetch
           href={CONTACT}
           className={cn(
             "flex items-center justify-between gap-1 p-0.5 opacity-60 hover:opacity-100",
@@ -55,6 +58,7 @@ export default function DesktopNavigation() {
       </li>
       <li>
         <Link
+          prefetch
           href={PRIVACY_POLICY}
           className={cn(
             "flex items-center justify-between gap-1 p-0.5 opacity-60 hover:opacity-100",
@@ -69,6 +73,7 @@ export default function DesktopNavigation() {
       </li>
       <li>
         <Link
+          prefetch
           href={TERMS_OF_USE}
           className={cn(
             "flex items-center justify-between gap-1 p-0.5 opacity-60 hover:opacity-100",
